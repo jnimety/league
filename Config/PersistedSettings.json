@@ -214,6 +214,27 @@
             "name": "Input.ini",
             "sections": [
                 {
+                    "name": "GameEvents",
+                    "settings": [
+                        {
+                          "name": "evntHudMoveableSelect",
+                          "value": "[Button 1],[Shift][Button 1]"
+                        },
+                        {
+                          "name": "evtPlayerAttackMoveClick",
+                          "value": "[Button 1]"
+                        },
+                        {
+                          "name": "evtPlayerMoveClick",
+                          "value": "[Button 2],[Shift][Button 2]"
+                        },
+                        {
+                          "name": "evtPlayerSelectClick",
+                          "value": "[Button 1],[Shift][Button 1]"
+                        }
+                    ]
+                },
+                {
                     "name": "Quickbinds",
                     "settings": [
                         {
